@@ -14,8 +14,20 @@
   },
   "scripts": {
     "start": "node lib/server/app.js",
-    "test": "./node_modules/.bin/mocha -R list"
+    "test": "mocha -R list"
   },
   "author": "Luke Schlangen",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Melissa-Elizabeth/rocket-router-rascal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Melissa-Elizabeth/rocket-router-rascal/issues"
+  },
+  "homepage": "https://github.com/Melissa-Elizabeth/rocket-router-rascal#readme"
 }
